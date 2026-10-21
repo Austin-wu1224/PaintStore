@@ -6,6 +6,8 @@ public class PaintProduct : IBuyable
     // Tax rate: 10%
     public readonly decimal TaxRate;
 
+    public int ProductId { get; set; }
+
     // Properties
     public string Name { get; set; }
 
